@@ -1,0 +1,13 @@
+.grid {display:grid;
+grid-template-columns: repeat(10,1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 15px;
+}
+
+.item1{grid-area: 1/4/2/8 ; }
+.item2{grid-area: 2/4/3/5;}
+.item3{grid-area: 2/5/3/6 ;}
+.item4{grid-area: 2/6/3/7;}
+.item5{grid-area: 2/7/3/8;}
+.item6{grid-area: 3/3/4/8;}
